@@ -1,0 +1,98 @@
+
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+  * {
+    margin: 0;
+  }
+  html, body {
+    height: 100%;
+  }
+  body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+  }
+  img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+  }
+  input, button, textarea, select {
+    font: inherit;
+  }
+  p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+  }
+  #root, #__next {
+    isolation: isolate;
+  }
+
+  .option-containet{
+    margin: 30px 0;
+    width: 500px;
+    height: 50px;
+    background-color: #cbf3f0;
+    display: flex;
+    align-items: center;
+  }
+
+  .destroyer{
+    background-color: #780000;
+  }
+
+  .submarine{
+    background-color: #e85d04;
+  }
+
+  .cruiser{
+    background-color: #f48c06;
+  }
+
+  .battleship{
+    background-color: #ffba08;
+  }
+
+  .carier{
+    background-color: #370617;
+  }
+
+  .destroyer-preview{
+    width: 20px;
+    height: 10px;
+    margin: 3px;
+  }
+
+  .submarine-preview{
+    width: 30px;
+    height: 10px;
+    margin: 3px;
+  }
+
+.cruiser-preview{
+    width: 30px;
+    height: 10px;
+    margin: 3px;
+}
+
+.battleship-preview{
+    width: 40px;
+    height: 10px;
+    margin: 3px;
+}
+
+.carier-preview{
+    width: 50px;
+    height: 10px;
+    margin: 3px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
