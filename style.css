@@ -41,6 +41,8 @@
   .game-board{
     width: 200px;
     height: 200px;
+    display: flex;
+    flex-wrap: wrap;
   }
 
   .option-containet{
@@ -102,6 +104,12 @@
     margin: 3px;
 }
 
+
+.block {
+  width: 20px;
+  height: 20px;
+  border: solid 1px black;
+}
 
 
 
