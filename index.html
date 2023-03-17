@@ -8,23 +8,25 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div id="game-info">
-      <p>Turn <span id="turn-display"></span></p>
-      <p>Info: <span id="info"></span></p>
+    <div>
+      <div id="game-info">
+        <p>Turn <span id="turn-display"></span></p>
+        <p>Info: <span id="info"></span></p>
+      </div>
+
+      <div id="gamesboards-container"></div>
+
+      <div class="option-containet">
+        <div class="destroyer-preview | destroyer" draggable="true"></div>
+        <div class="submarine-preview | submarine" draggable="true"></div>
+        <div class="cruiser-preview | cruiser" draggable="true"></div>
+        <div class="battleship-preview | battleship" draggable="true"></div>
+        <div class="carier-preview | carier" draggable="true"></div>
+      </div>
+
+      <button id="flip-button">flip</button>
+      <button id="start-button">start</button>
     </div>
-
-    <div id="gamesboards-container"></div>
-
-    <div class="option-containet">
-      <div class="destroyer-preview | destroyer" draggable="true"></div>
-      <div class="submarine-preview | submarine" draggable="true"></div>
-      <div class="cruiser-preview | cruiser" draggable="true"></div>
-      <div class="battleship-preview | battleship" draggable="true"></div>
-      <div class="carier-preview | carier" draggable="true"></div>
-    </div>
-
-    <button id="flip-button">flip</button>
-    <button id="start-button">start</button>
 
     <script src="app.js"></script>
   </body>

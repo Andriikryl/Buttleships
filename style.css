@@ -26,6 +26,23 @@
     isolation: isolate;
   }
 
+  #gamesboards-container{
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .game-board{
+    width: 200px;
+    height: 200px;
+  }
+
   .option-containet{
     margin: 30px 0;
     width: 500px;
